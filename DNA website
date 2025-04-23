@@ -1,0 +1,154 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DNA - Streetwear</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Anton', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    .logo {
+      font-size: 2rem;
+      color: #fff;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1600x600/000000/FFFFFF?text=DNA+STREETWEAR') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      color: red;
+      text-shadow: 2px 2px #000;
+    }
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .product {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .newsletter {
+      background: #111;
+      padding: 40px;
+      text-align: center;
+    }
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    .newsletter button {
+      padding: 10px 20px;
+      background: red;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">DNA</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>ROYALTY AND LOYALTY INSIDE MY DNA !</h1>
+  </section>
+
+  <section class="section" id="shop">
+    <h2>Featured Drops</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Hoodie" alt="Hoodie" />
+        <p>Signature DNA Hoodie</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=T-Shirt" alt="T-Shirt" />
+        <p>Graphic Tee</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Pants" alt="Pants" />
+        <p>Urban Cargo Pants</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Jersey" alt="Jersey" />
+        <p>DNA Street Jersey</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About DNA</h2>
+    <p>DNA is more than streetwear—it's rebellion, culture, and identity stitched into every thread. Created for those who don’t blend in.</p>
+  </section>
+
+  <section class="newsletter">
+    <h2>FIND YOUR DNA !</h2>
+    <p>Sign up for exclusive drops, deals, and behind-the-scenes looks.</p>
+    <input type="email" placeholder="Your email address">
+    <button>Subscribe</button>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: contact dnassociation21@gmail.com</p>
+    <p>Follow us on IG: @dn.aaaaaaaaaa</p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 DNA Streetwear. All rights reserved.
+  </footer>
+</body>
+</html>
